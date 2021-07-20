@@ -1,8 +1,11 @@
-# PATHFINDING VISUALIZER
+# A* PATHFINDING VISUALIZER
 
-Path Finding Visualiser is a 2-D maze generation and optimal path-finder that has been developed using PyGame (a Python set of modules).
+A* Pathfinding Visualizer is a python visualization of the A* pathfinding algorithm using Pygame and TKinter, which
+allows users to pick a start and end location and view the process of finding the shortest path.
 
-It uses the heuristic A-Star algorithm to determine paths between 2 nodes in a Two-Dimenstional Grid with some obstacles in between (which is dependent on the interactive user where he/she wants to place them). Based on a heuristic function, different possible paths are traversed and once the final node is reached; using backtracking the shortest path is found and visualised. The project aims at understanding how the A-Star algorithm actually functions and can be visually interpreted. 
+The A-star algorithm is employed here to determine the  shortest path between two nodes in a 2-D grid, with the option of placing the obstacles given to the user. Based on A-star's heuristic  function, different  paths  are traversed and the final path is determined using backtracking. 
+
+The project thus helps in visually interpreting how  the A-Star algorithm functions.
 
 ## Requirements
 1. The only requirement is to install Pygame,which can be done by either of the  following two commands
