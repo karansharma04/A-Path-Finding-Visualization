@@ -1,4 +1,4 @@
-# PATH FINDING VISUALISER
+# PATHFINDING VISUALIZER
 
 Path Finding Visualiser is a 2-D maze generation and optimal path-finder that has been developed using PyGame (a Python set of modules).
 
